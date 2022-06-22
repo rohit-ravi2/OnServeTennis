@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/OnServeTennis/static/css/main.a6d3ab00.chunk.css",
+    "main.js": "/OnServeTennis/static/js/main.6d49920b.chunk.js",
+    "main.js.map": "/OnServeTennis/static/js/main.6d49920b.chunk.js.map",
+    "runtime-main.js": "/OnServeTennis/static/js/runtime-main.e2af17e0.js",
+    "runtime-main.js.map": "/OnServeTennis/static/js/runtime-main.e2af17e0.js.map",
+    "static/css/2.1ba447cc.chunk.css": "/OnServeTennis/static/css/2.1ba447cc.chunk.css",
+    "static/js/2.117d4415.chunk.js": "/OnServeTennis/static/js/2.117d4415.chunk.js",
+    "static/js/2.117d4415.chunk.js.map": "/OnServeTennis/static/js/2.117d4415.chunk.js.map",
+    "index.html": "/OnServeTennis/index.html",
+    "precache-manifest.7bee6b56d96f89dcefcd14db3c702f85.js": "/OnServeTennis/precache-manifest.7bee6b56d96f89dcefcd14db3c702f85.js",
+    "service-worker.js": "/OnServeTennis/service-worker.js",
+    "static/css/2.1ba447cc.chunk.css.map": "/OnServeTennis/static/css/2.1ba447cc.chunk.css.map",
+    "static/css/main.a6d3ab00.chunk.css.map": "/OnServeTennis/static/css/main.a6d3ab00.chunk.css.map",
+    "static/js/2.117d4415.chunk.js.LICENSE.txt": "/OnServeTennis/static/js/2.117d4415.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2af17e0.js",
+    "static/css/2.1ba447cc.chunk.css",
+    "static/js/2.117d4415.chunk.js",
+    "static/css/main.a6d3ab00.chunk.css",
+    "static/js/main.6d49920b.chunk.js"
+  ]
+}
