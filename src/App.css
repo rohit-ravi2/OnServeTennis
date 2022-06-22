@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Orbitron&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+
+/*----------------------  Facilities -----------------------*/
+#facilites-title
+{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 0 0 0 0;
+}
+
+#facilities-text
+{
+  text-align: center;
+  margin-top: 0p;
+}
+
+.wrapperFacilities
+{
+  margin: 0px;
+}
+
+.legend
+{
+  width: 200px;
+}
+
+.sliderimg
+{
+  width: 10em;
+}
+
+
+
+/*----------------------  Programs -----------------------*/
+
+b
+{
+  font-weight: bolder;
+  font-family:'Montserrat', sans-serif ;
+}
+
+ul li 
+{
+  text-align: left;
+}
+.structure
+{
+  margin-top: 20px;
+  font-size: 1.5em;
+
+}
+
+#programs-title
+{
+  margin-top: 1em;
+}
+.programsImage
+{
+  float: left;
+  width: 35vw;
+  display: flex;
+}
+
+.text-programs
+{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.containerPrograms
+{
+  margin-bottom: 100px;
+}
+
+.wrapperPrograms
+{
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 0.1em;
+  width: 100%;
+  justify-content: center;
+}
+
+.programs-schedule
+{
+  font-weight: normal;
+  font-size: 25px;
+  margin-top: 20px;
+
+}
+
+.programs-header
+{
+  font-size: 30px;
+}
+
+.schedule-text
+{
+  margin-top: 15px;
+}
+@media(max-width:950px)
+{
+  .wrapperPrograms
+  {
+    grid-template-columns: 1fr;
+  }
+  .programsImage
+  {
+    float: none;
+    justify-self: center;
+    text-align: center;
+  }
+}
+/*----------------------  Meet the Team -----------------------*/
+.team-img
+{
+  float: left;
+  width: 400px;
+}
+.textTeam
+{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.containerTeam
+{
+  margin-bottom: 100px;
+}
+
+.wrapperTeam
+{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 0.1em;
+  width: 100%;
+  justify-content: center;
+}
+
+#teamTitle
+{
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  margin-top: 1em;
+}
+
+@media(max-width: 900px)
+{
+  .wrapperTeam{
+    grid-template-columns: 100%;
+    margin-left: 0.1vw;
+    margin-right: 0.1vw;
+  }
+  .team-img
+{
+  float: none;
+  width: 20em;
+  justify-self: center;
+}
+}
